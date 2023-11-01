@@ -44,6 +44,10 @@ Nodes that broadcast data read from devices, such as images, audio streams, etc.
     
     Audio-broadcasting node that uses linux's Advanced Linux Sound Architecture.
 
+* `roboflex.audio_sdl` (https://github.com/flexrobotics/roboflex_audio_sdl) 
+    
+    Audio-broadcasting node that uses Simple Directmedia Layer.
+
 * `roboflex.realsense` (https://github.com/flexrobotics/roboflex_realsense)
 
     RealsenseSensor node, a driver for the Intel Realsense rgb/depth camera.
@@ -57,6 +61,10 @@ Nodes that broadcast data read from devices, such as images, audio streams, etc.
 * `roboflex.visualization` (https://github.com/flexrobotics/roboflex_visualization)
 
     RGBImageTV and DepthTV Nodes, that can visualize rgb and depth camera streams, so far.
+
+* `roboflex.imgui` (https://github.com/flexrobotics/roboflex_imgui)
+
+    Visualizers using IMGUI and IMPLOT.
 
 ### actuators 🤖
 
