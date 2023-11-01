@@ -35,7 +35,8 @@ Roboflex is structured as a single core library (`roboflex`), in the roboflex re
 
     * realsense_tv.py: television for the Intel Realsense camera.
     * webcam_tv.py: television for USB-UVC compatible web cameras.
-
+    * audio_tv.py: displays an audio feed in real-time.
+  
 ### sensors 📷 🔊 👉
 
 Nodes that broadcast data read from devices, such as images, audio streams, etc.
