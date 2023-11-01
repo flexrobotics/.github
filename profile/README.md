@@ -68,7 +68,7 @@ Nodes that broadcast data read from devices, such as images, audio streams, etc.
 
 ### actuators 🤖
 
-* `roboflex.dynamixel` (https://github.com/flexrobotics/roboflex_visualization)
+* `roboflex.dynamixel` (https://github.com/flexrobotics/roboflex_dynamixel)
 
     Support for dynamixel motors.
 
