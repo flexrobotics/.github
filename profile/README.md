@@ -7,7 +7,7 @@ Roboflex is a library for distributed robotics. Want to stream from a camera, ru
 Roboflex is:
 * Simple to install: `pip install roboflex`, then `pip install roboflex.realsense` etc.
 * Simple in concept: distribute `Node`s, which receive and publish `Message`s over pub-sub networks. Threading model is straightforward.
-* Simple to implement: use python to create and run Node graphs. Roboflex requires minimal code, and no non-code artifacts (no yaml, no xml).
+* Simple to implement: use python to create and run Node graphs. Roboflex requires minimal code, and no non-code artifacts (no yaml, no xml).*
 * Uses dynamic, not static, message types; more like json than protobuf. Roboflex uses flexbuffers as the message protocol.
 * Performant: roboflex is written in c++. Flexbuffer message protocol supports 0-copy serialization into xtensor, eigen, and numpy.
 * A library, not a framework: you control main().
@@ -36,7 +36,7 @@ Roboflex is structured as a single core library (`roboflex`), in the roboflex re
     * realsense_tv.py: television for the Intel Realsense camera.
     * webcam_tv.py: television for USB-UVC compatible web cameras.
     * audio_tv.py: displays an audio feed in real-time.
-  
+
 ### sensors 📷 🔊 👉
 
 Nodes that broadcast data read from devices, such as images, audio streams, etc.
@@ -101,4 +101,4 @@ Nodes that broadcast data read from devices, such as images, audio streams, etc.
 
 ## Building
 
-Roboflex currently uses cmake to build. Yeah, it's a mess. Open to ideas
+* In python, roboflex is very simple to install and use. In c++, Roboflex currently uses cmake to build. Yeah, it's a mess. Open to ideas
