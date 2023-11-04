@@ -28,6 +28,7 @@ Roboflex is structured as a single core library (`roboflex`), in the roboflex re
     * LastOne
     * MapFun
     * MessagePrinter
+    * GraphRoot
 
 * `roboflex_examples` (https://github.com/flexrobotics/roboflex_examples)
 
@@ -93,12 +94,6 @@ Nodes that broadcast data read from devices, such as images, audio streams, etc.
 
     Converts (C,H,W) uint8 rgb image tensors to pngs, in memory and file, and back.
 
-### Special
-
-* `roboflex.profiler` (https://github.com/flexrobotics/roboflex_profiler)
-
-    Automatic profiling of robotics computation graphs.
-
 ## Building
 
-* In python, roboflex is very simple to install and use. In c++, Roboflex currently uses cmake to build. Yeah, it's a mess. Open to ideas
+* In python, roboflex is very simple to install and use. In c++, Roboflex currently uses cmake to build. Yeah, it's a mess. Open to ideas.
