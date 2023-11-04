@@ -18,7 +18,7 @@ Roboflex is:
 
 Roboflex is structured as a single core library (`roboflex`), in the roboflex repository. It supports no physical devices itself. Other repositories support devices, actuators, utilities, etc. This is the current set of repositories in roboflex; each one is named "roboflex_something". If you would like to support other devices or functionality, you can name your repo anything you'd like.
 
-* `roboflex` (core) (https://github.com/flexrobotics/roboflex)
+* **roboflex** (core) (https://github.com/flexrobotics/roboflex)
 
     Definitions and imlpementations of Nodes, RunnableNodes, Messages, python wrappings, and various serialization utilities. Also contains a small library of utility nodes:
 
@@ -30,7 +30,7 @@ Roboflex is structured as a single core library (`roboflex`), in the roboflex re
     * MessagePrinter
     * GraphRoot
 
-* `roboflex_examples` (https://github.com/flexrobotics/roboflex_examples)
+* **roboflex_examples** (https://github.com/flexrobotics/roboflex_examples)
 
     Simple examples of roboflex individual components are in those components' examples/ directory. Examples that use two or more components, or are more complex, are here.
 
@@ -42,55 +42,55 @@ Roboflex is structured as a single core library (`roboflex`), in the roboflex re
 
 Nodes that broadcast data read from devices, such as images, audio streams, etc.
 
-* `roboflex.audio_alsa` (https://github.com/flexrobotics/roboflex_audio_alsa) 
+* **roboflex.audio_alsa** (https://github.com/flexrobotics/roboflex_audio_alsa) 
     
     Audio-broadcasting node that uses linux's Advanced Linux Sound Architecture.
 
-* `roboflex.audio_sdl` (https://github.com/flexrobotics/roboflex_audio_sdl) 
+* **roboflex.audio_sdl** (https://github.com/flexrobotics/roboflex_audio_sdl) 
     
     Audio-broadcasting node that uses Simple Directmedia Layer.
 
-* `roboflex.realsense` (https://github.com/flexrobotics/roboflex_realsense)
+* **roboflex.realsense** (https://github.com/flexrobotics/roboflex_realsense)
 
     RealsenseSensor node, a driver for the Intel Realsense rgb/depth camera.
 
-* `roboflex.webcamuvc` (https://github.com/flexrobotics/roboflex_webcamuvc)
+* **roboflex.webcamuvc** (https://github.com/flexrobotics/roboflex_webcamuvc)
 
     WebcamSensor node, a driver for USB UVC-compatible web cameras.
 
 ### visualization 📺 
 
-* `roboflex.visualization` (https://github.com/flexrobotics/roboflex_visualization)
+* **roboflex.visualization** (https://github.com/flexrobotics/roboflex_visualization)
 
     RGBImageTV and DepthTV Nodes, that can visualize rgb and depth camera streams, so far.
 
-* `roboflex.imgui` (https://github.com/flexrobotics/roboflex_imgui)
+* **roboflex.imgui** (https://github.com/flexrobotics/roboflex_imgui)
 
     Visualizers using IMGUI and IMPLOT.
 
 ### actuators 🤖
 
-* `roboflex.dynamixel` (https://github.com/flexrobotics/roboflex_dynamixel)
+* **roboflex.dynamixel** (https://github.com/flexrobotics/roboflex_dynamixel)
 
     Support for dynamixel motors.
 
 ### transports 🚡
 
-* `roboflex.transport.zmq` (https://github.com/flexrobotics/roboflex_transport_zmq)
+* **roboflex.transport.zmq** (https://github.com/flexrobotics/roboflex_transport_zmq)
 
     Zero-mq support for pub-sub.
 
-* `roboflex.transport.mqtt` (https://github.com/flexrobotics/roboflex_transport_mqtt)
+* **roboflex.transport.mqtt** (https://github.com/flexrobotics/roboflex_transport_mqtt)
 
     MQTT support for pub-sub.
 
 ### utilities ⚒️
 
-* `roboflex.util.jpeg` (https://github.com/flexrobotics/roboflex_util_jpeg)
+* **roboflex.util.jpeg** (https://github.com/flexrobotics/roboflex_util_jpeg)
 
     Converts (C,H,W) uint8 rgb image tensors to jpegs, in memory and file, and back.
 
-* `roboflex.util.png` (https://github.com/flexrobotics/roboflex_util_png)
+* **roboflex.util.png** (https://github.com/flexrobotics/roboflex_util_png)
 
     Converts (C,H,W) uint8 rgb image tensors to pngs, in memory and file, and back.
 
