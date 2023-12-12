@@ -58,6 +58,10 @@ Nodes that broadcast data read from devices, such as images, audio streams, etc.
 
     WebcamSensor node, a driver for USB UVC-compatible web cameras.
 
+* **roboflex.dvs** (https://github.com/flexrobotics/roboflex_dvs)
+
+    DVSSensor node and others, a driver for a particular model of Dynamic Vision Sensor (otherwise known as an 'event camera').
+
 ### visualization 📺 
 
 * **roboflex.visualization** (https://github.com/flexrobotics/roboflex_visualization)
