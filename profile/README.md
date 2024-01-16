@@ -12,7 +12,10 @@ Roboflex is:
 * Performant: roboflex is written in c++. Flexbuffer message protocol supports 0-copy serialization into xtensor, eigen, and numpy.
 * A library, not a framework: you control main().
 
-The core idea of roboflex is the 'computation graph'.
+
+## Computation graph for distributed, reactive robotics:
+
+The core idea of roboflex is the 'computation graph'. Nodes send Messages to other nodes, over any transport. You configure this computation graph in a small python script.
 
 ![image](https://github.com/flexrobotics/.github/assets/132782/d0ae5226-4cfd-4954-b7eb-244b315cbf70)
 
