@@ -15,7 +15,7 @@ Roboflex is:
 
 ## Computation graph for distributed, reactive robotics:
 
-The core idea of roboflex is the 'computation graph'. Nodes send Messages to other nodes, over any transport. You configure this computation graph in a small python script.
+The core idea of roboflex is the 'computation graph'. Nodes send Messages to other nodes, over any transport. You configure this computation graph in a small python script. See the 'core' documentation for more info: (https://github.com/flexrobotics/roboflex).
 
 ![image](https://github.com/flexrobotics/.github/assets/132782/d0ae5226-4cfd-4954-b7eb-244b315cbf70)
 
