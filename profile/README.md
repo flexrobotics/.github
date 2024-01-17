@@ -44,6 +44,7 @@ Roboflex is structured as a single core library (`roboflex`), in the roboflex re
     * realsense_tv.py: television for the Intel Realsense camera.
     * webcam_tv.py: television for USB-UVC compatible web cameras.
     * audio_tv.py: displays an audio feed in real-time.
+    * camera_follow: A pan-tilt dynamixel-driven camera mount that follows your face in realtime.
 
 ### sensors 📷 🔊 👉
 
