@@ -62,9 +62,13 @@ Nodes that broadcast data read from devices, such as images, audio streams, etc.
 
     RealsenseSensor node, a driver for the Intel Realsense rgb/depth camera.
 
+* **roboflex.webcam_gst** (https://github.com/flexrobotics/roboflex_webcam_gst)
+
+    WebcamSensor node, driven by gstreamer.
+  
 * **roboflex.webcamuvc** (https://github.com/flexrobotics/roboflex_webcamuvc)
 
-    WebcamSensor node, a driver for USB UVC-compatible web cameras.
+    WebcamSensor node, a driver for USB UVC-compatible web cameras, driven by libutc.
 
 * **roboflex.dvs** (https://github.com/flexrobotics/roboflex_dvs)
 
