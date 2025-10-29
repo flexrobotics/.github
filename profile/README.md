@@ -2,6 +2,10 @@
 
 Welcome to flexrobotics, the home of roboflex.
 
+> 🔗 **Meta Repository:**  
+> For a full machine-readable catalog of all RoboFlex components, see  
+> 👉 [**flexrobotics/roboflex-meta**](https://github.com/flexrobotics/roboflex-meta)
+
 Roboflex is a library for distributed robotics. Want to stream from a camera, run tensors through pytorch, integrate with other sensor streams, and control actuators and robots? Roboflex is for you.
 
 Roboflex is:
