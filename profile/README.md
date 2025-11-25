@@ -104,6 +104,10 @@ Nodes that broadcast data read from devices, such as images, audio streams, etc.
 
     MQTT support for pub-sub.
 
+* **roboflex.transport.zenoh** (https://github.com/flexrobotics/roboflex_transport_zenoh)
+
+    Zenoh support for pub-sub.
+
 ### utilities ⚒️
 
 * **roboflex.util.jpeg** (https://github.com/flexrobotics/roboflex_util_jpeg)
